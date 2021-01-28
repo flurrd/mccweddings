@@ -1,0 +1,43 @@
+{
+  "name": "my-portfolio-2020",
+  "private": true,
+  "description": "Go to do it",
+  "license": "MIT",
+  "version": "0.1.0",
+  "author": "@marcushallyo",
+  "scripts": {
+    "dev": "next src",
+    "develop": "yarn dev",
+    "build": "next build src",
+    "start": "next start src",
+    "export": "next export src",
+    "deploy": "yarn build && yarn export"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "formik": "^2.1.4",
+    "framer-motion": "^1.10.3",
+    "gray-matter": "^4.0.2",
+    "next": "^9.0.2",
+    "next-seo": "^4.4.0",
+    "node-glob": "^1.2.0",
+    "node-sass": "^4.13.1",
+    "raw-loader": "^3.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-hook-intersection-observer": "^0.1.0",
+    "react-markdown": "^4.1.0",
+    "react-scroll": "^1.7.16",
+    "webpack": "^4.37.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "keywords": [
+    "next"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flurrd/portfolio2020"
+  }
+}

@@ -1,0 +1,134 @@
+$increments: ('0':0, '1-4': 0.25, '1-2': 0.5, '1-3': 0.75, '1':1 , '2':2 , '3':3 , '4': 4);
+$positions-list: top, right, bottom, left;
+$property-types: padding, margin;
+$display-types: block, inline-block, flex;
+
+
+@mixin create_margin_padding_classes($pos-list, $prop-type-list, $inc-list, $unit-type) {
+  @each $pos-list-i in $pos-list {
+    @each $prop-type-i in $prop-type-list {
+      @each $inc-name, $inc-value in $inc-list {
+        @if $inc-value == 0 {
+          $unit-type: '';
+        }
+        @else if $inc-value == 'auto'{
+          $unit-type: '';
+        }
+        @else {
+          $unit-type: 'rem';
+        }
+        @if $inc-value == 'flex' {
+          @debug 'isflex'
+        }
+        $class1: str-slice($prop-type-i, 1,3);
+        $class2: str-slice($pos-list-i, 1,1);
+        .#{$class1}-#{$class2}-#{$inc-name} {
+          #{$prop-type-i}-#{$pos-list-i}: #{$inc-value}#{$unit-type} !important;
+        }
+      }
+    }
+  }
+}
+
+
+@include create_margin_padding_classes($positions-list, $property-types, $increments, 'em');
+
+$display-properties: block, flex, none, inline-block;
+
+@mixin utility-class-generator($prefix, $property, $list) {
+	@each $value in $list {
+		.d-#{$value} {
+			#{$property}: #{$value} !important;
+		}
+	}
+}
+
+@include utility-class-generator("d", "display", $display-properties);
+
+@mixin _a-crop-generator( $aspect-ratios ) {
+
+	$NAMESPACE: '' !default;
+
+	@if type-of($aspect-ratios) != 'map' {
+		@error "`#{$aspect-ratios}` is not a valid value for $aspect-ratios. It must be map.";
+	}
+
+	@each $name, $sizes in $aspect-ratios {
+    @debug #{$NAMESPACE}a-crop-#{$name};
+		.#{$NAMESPACE}a-crop-#{$name} {
+			position: relative;
+			padding-bottom: calc( ( #{nth($sizes, 2)} / #{nth($sizes, 1)} ) * 100% );
+
+			img {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				-o-object-fit: cover;
+				   object-fit: cover;
+			}
+		}
+	}
+}
+///include whem debugged and map added
+
+.visible-min-600 {
+  display: none;
+  @media screen and (min-width: 600px) {
+    display: block !important;
+  }
+}
+
+@mixin clearfix {
+  &:after {
+    clear: both;
+    content: ' ';
+    display: block;
+  }
+}
+
+.visually-hidden,.is-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+.unstyled-list {
+	list-style: none;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.f-align-center {
+  align-items: center !important;
+}
+.f-justify-center {
+  justify-content: center !important;
+}
+
+.d-inline-b {
+  display: inline-block !important;
+}
+
+.mar-l-auto {
+  margin-left: auto;
+}
+.mar-r-auto {
+  margin-right: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.d-flex {width: 100%;}

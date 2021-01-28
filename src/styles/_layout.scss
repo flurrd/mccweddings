@@ -1,0 +1,26 @@
+.content-section {
+    background: var(--theme-color-white);
+    padding: var(--content-section-margin) 0;
+    &:first-child {
+        padding: calc(var(--content-section-margin) *2) 0;
+    }
+  }
+
+
+.content-max-width {
+    text-align: center;
+    max-width: var(--content-max-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding: var(--content-padding-sides) var(--content-padding-top-tail);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+  }
+
+  .content-section-gallery {
+    padding: 0 var(--content-padding-top-tail);
+  }
+
