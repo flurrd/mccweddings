@@ -54,10 +54,10 @@ export default function Contact(props) {
 			<section className="content-max-width contact-max-width">
 				
 				<div className="d-flex">
-					<section className="d-flex f-justify-center contact-links">
+					<section className="d-flex f-justify-center contact-links btn-grp">
 						<div className="d-inline-block contact-info-item">
 							<p className="d-flex">
-								<a className="btn d-flex" href="tel:+61 448 914 993">
+								<a className="btn d-flex f-justify-center" href="tel:+61 448 914 993">
 									<div className="contact-phone-icon mar-r-1">
 										<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="mobile-alt" className="svg-inline--fa fa-mobile-alt fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
 											<path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path>
@@ -70,7 +70,7 @@ export default function Contact(props) {
 
 						<div className="d-inline-block contact-info-item">
 							<p className="d-flex">
-								<a className="btn d-flex" href="mailto:contact@prosperdigital.com.au">
+								<a className="btn d-flex f-justify-center" href="mailto:contact@prosperdigital.com.au">
 									<div className="contact-mail-icon mar-r-1 ">
 										<svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="envelope" className="svg-inline--fa fa-envelope fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
 											<path
@@ -154,6 +154,7 @@ export default function Contact(props) {
 
 						.contact-form .btn {
 							min-width: 50%;
+							border: none;
 						}
 						.field {
 							display: flex;
@@ -181,10 +182,6 @@ export default function Contact(props) {
 							max-width: 1200px;
 							margin-right: auto;
 							margin-left: auto;
-						}
-
-						.contact-info-item + .contact-info-item {
-							margin-left: 3rem;
 						}
 						.contact-max-width {
 							padding-top: 0;
