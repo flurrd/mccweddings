@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[15],{AnCH:function(o){o.exports=JSON.parse('{"title":"Maureen Catherine Crawley\'s Portfolio | Developer | Digital Designer","description":"The description","repositoryUrl":"https://github.com/flurrd/portfolio2020"}')}}]);

@@ -1,32 +1,36 @@
 .hero {
 
-  background-blend-mode: normal;
-  background: var(--theme-color-accent);
+    background-blend-mode: normal;
+    background: var(--theme-color-accent);
     text-align: center;
-    span {display: block;}
-    .h2,.h3 {
+
+    span {
+        display: block;
+    }
+
+    .h2,
+    .h3 {
         font-family: $ss-font-family;
-        
+
     }
 
     .h2 {
-        font-size: 26px;
         font-weight: $font-ss-regular;
         margin-bottom: 1rem;
         margin-top: 1.5rem;
         padding-bottom: 0;
         padding-top: 0;
-        
+
     }
+
     .h3 {
         letter-spacing: 6px;
         font-weight: $font-ss-light;
-        text-transform: uppercase;   
+        text-transform: uppercase;
         margin-bottom: 0;
         margin-top: 0;
         padding-bottom: 0;
         padding-top: 0;
-        font-size: 20px;
     }
 
     .h1 {
@@ -36,13 +40,6 @@
         margin-top: 0;
         padding-bottom: 0;
         padding-top: 0;
-        font-size: 40px;
-        @media screen and (min-width: 600px) {
-            font-size: 7vw;
-        }
-        @media screen and (min-width: 850px) {
-            font-size: 58px;
-        }
     }
 
     .btn {
@@ -51,15 +48,54 @@
         color: white;
         margin-top: 1rem;
         background: transparent;
+
         &:hover {
-            background:  var(--btnColor);
+            background: var(--btnColor);
+        }
+    }
+
+    /* ////////////////////// */
+    .h1 {
+        font-size: 36px;
+        
+        margin-bottom: 2.5rem;
+
+        @media screen and (max-width: 480px) {
+            max-width: 280px
+        }
+    }
+    .h2 {
+        font-size: 20px;
+    }
+    .h3 {
+        font-size: 14px;
+
+    }
+
+    @media screen and (min-width: 600px) {
+        .h1 {
+            font-size: 7vw;
+        }
+        .h2 {
+            font-size: 24px;
+        }
+        .h3 {
+            font-size: 20px;
+        }
+    }
+
+    @media screen and (min-width: 850px) {
+        .h1 {
+            font-size: 58px;
         }
 
-        @media screen and (max-width: 480px){
-            font-size: 14px;
+    }
+
+
+    .btn {
+        @media screen and (max-width: 480px) {
+            font-size: 12px;
         }
     }
 
 }
-
-  

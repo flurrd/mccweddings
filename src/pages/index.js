@@ -5,7 +5,8 @@ import Contact from "../components/ContactForm";
 import Framer from "../components/Framer";
 
 import Intro from "../components/Intro";
-import TestamonialsGallery from "../components/TestamonialsGallery";
+import Testamonial from "../components/Testamonial";
+import Gallery from "../components/Gallery";
 import { useViewportScroll, useTransform } from "framer-motion";
 import React, { useRef, useState } from "react";
 import ReactMarkdown from "react-markdown";
@@ -19,7 +20,8 @@ const Index = (props) => {
 
 				<Hero></Hero>
 				<Intro></Intro>
-				<TestamonialsGallery></TestamonialsGallery>
+				<Testamonial></Testamonial>
+				<Gallery></Gallery>
 
 				<article className="content-section"  name="servicesandrates" id="servicesandrates">
 					<section className="content-max-width text-left rte">

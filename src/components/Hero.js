@@ -50,7 +50,7 @@ class Hero extends React.Component {
       <>
       <section className="hero" name="home" id="home">
 
-<img className="mandala-circle" src="../static/circle.png"></img>
+{/* <img className="mandala-circle" src="../static/circle.png"></img> */}
 
         <div className="hero__content">
 
@@ -91,7 +91,7 @@ class Hero extends React.Component {
 
             .hero {
 
-              background-image: url(../static/heroimg.jpg);
+              background-image: url(../static/hero-bg.jpg);
               background-size: cover;
               display: flex;
               align-items: center;
@@ -101,7 +101,16 @@ class Hero extends React.Component {
               overflow: hidden;
               position: relative;
               padding: 2vmax;
+              min-height: 500px;
             }
+
+            @media screen and (max-width: 400px){
+
+              .hero {
+                height: 100vh;
+              }
+
+          }
 
             .hero .btn-group {
               max-width: 340px;

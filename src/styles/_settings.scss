@@ -1,10 +1,11 @@
 :root {
-    --theme-color-h: 296;
+    --theme-color-h: 277;
     --theme-color-s: 50%;
     --theme-color-l: 26%;
     --theme-color-h-opp: calc(var(--theme-color-h) + 90);
 
-    --theme-color-white:hsl(var(--theme-color-h), 100%, 97%);
+    //--theme-color-white:hsl(var(--theme-color-h), 100%, 97%);
+    --theme-color-white:white;
     --theme-color-black: hsl(var(--theme-color-h), 20%, 5%);
     --theme-color-grey: #ececec;
     --theme-color-grey-dark: #5e676e;
@@ -12,6 +13,7 @@
     --theme-color-accent-dark: hsl(var(--theme-color-h), 90%, 20%);
     --theme-color-accent-light: hsl(var(--theme-color-h), var(--theme-color-s), 60%);
     --theme-color-accent-opposite: hsl(var(--theme-color-h-opp), var(--theme-color-s), 50%);
+    --theme-color-text: #505050;
     --container-max-width: 50rem;
     --header-height: 7.5em;
     --theme-color-nav-links:var(--theme-color-accent);
@@ -23,8 +25,7 @@
 
     --content-padding-sides: 4vmax;
     --content-padding-top-tail: 5vmax;
-    --content-section-margin: 3rem;
-    --content-max-width: 1200px;
+    --content-max-width: 900px;
 
     --fullscreen-nav-background-color: var(--theme-color-white);
     --fullscreen-nav-color: var(--theme-color-accent);

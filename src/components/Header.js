@@ -17,7 +17,7 @@ export default function Header(props) {
 </ScLink> */}
 
 
-<ScLink className="btn" to="contact" spy smooth to="contact"
+<ScLink className="btn contact-btn" to="contact" spy smooth to="contact"
                   >
                   Get in touch
                   </ScLink>
@@ -39,6 +39,9 @@ export default function Header(props) {
             padding-right: 100px;
             padding-top: 36px;
           }
+
+
+          
 
         `}
       </style>

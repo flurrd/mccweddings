@@ -18,7 +18,6 @@ module.exports = withSCSS({
    exportPathMap: async function() {
     const routes = {
       '/': { page : '/'},
-      "/about": { page: "/about"},
       "/404": { page: "/404"}
     }
     //get all .md files in the posts dir

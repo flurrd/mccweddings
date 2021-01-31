@@ -1,20 +1,4 @@
-$button-sml: 1em;
-$button-lrg: 1.3em;
 
-.btn {
-    --btnColor: var(--theme-color-accent);
-    --button-size: #{$button-sml};
-}
-
-.btn-red {
-    --btnColor: #ff6969;
-}
-
-@media screen and (min-width: 600px) {
-    .btn.btn--lrg {
-        --button-size: #{$button-lrg};
-    }
-}
 
 .btn-grp {
     display: flex;
@@ -36,20 +20,8 @@ $button-lrg: 1.3em;
 
 
 
-.btn {
-
-    color: white;
-    font-size: var(--button-size);
-    text-transform: uppercase;
-    background-color: var(--btnColor);
-    padding: calc(var(--button-size)) calc(var(--button-size) / 0.5);
-    text-decoration: none;
-    font-weight: $font-ss-light;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    letter-spacing: 2px;
-    &:hover {
-        color: white;
-        background-color: var(--btnColor);
+@media screen and (max-width: 765px) {
+    .contact-btn {
+      display: none;
     }
-}
+  }

@@ -6,8 +6,8 @@ import { Link as ScLink, DirectLink, Element, Events, animateScroll as scroll, s
 
 
 const variants = {
-  open: { top: 0, right: 0, position: "fixed", zIndex: 10000, width: "100%", height: "100%", opacity: 1, x: 0 },
-  closed: { top: 0, right: 0, position: "fixed", zIndex: 10000, width: 0, height: "100%", opacity: 1, x: "100%" },
+  open: { top: 0, right: 0, position: "fixed", zIndex: 10000, width: "100%", height: "100%", opacity: 1, x: 0},
+  closed: { top: 0, right: 0, position: "fixed", zIndex: 10000, width: 0, height: "100%", opacity: 1, x: "100%"},
 }
 
 const cicleBg = {
@@ -34,8 +34,8 @@ const container = {
 }
 
 const item = {
-  open: { opacity: 1, x: 0 },
-  closed: { opacity: 0, x: "-50%",  transition: { duration: 0.05}  }
+  open: { opacity: 1, x: 0, pointerEvents:"all" },
+  closed: { opacity: 0, x: "-50%", pointerEvents:"none",  transition: { duration: 0.05}  }
 }
 
 const Path = props => (

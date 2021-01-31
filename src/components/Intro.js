@@ -25,7 +25,7 @@ export default function Intro(props) {
 
 	return (
 		<article className="content-section" ref={target} id="about">
-			<section className="content-max-width">
+			<section className="content-max-width content-intro">
 				{/* <Flourish></Flourish> */}
                 <img className="profile-img mar-l-auto mar-r-auto d-inline-block" src="../static/profile.png"></img>
                 <div className="rte intro mar-t-3">
@@ -47,7 +47,11 @@ export default function Intro(props) {
 				width: 66%;
 				max-width: 300px;
 				filter: grayscale(1);
-                        }
+			}
+			
+			.content-intro {
+				padding-top: 0;
+			}
 
 
 
