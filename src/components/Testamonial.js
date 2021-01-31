@@ -47,7 +47,7 @@ export default function Testamonial(props) {
 				<div className="rte testamonial ">
 					<blockquote className="blockquote-testamonial">
 						<em>	
-						<p>"Wew were so impressed by the way you asked questions and listened with empathy to draw out the essence of Pat and to reflect that in your delivery with such a soft and caring nature. It was as if you had known her all your life.</p>
+						<p>"We were so impressed by the way you asked questions and listened with empathy to draw out the essence of Pat and to reflect that in your delivery with such a soft and caring nature. It was as if you had known her all your life.</p>
 						<p>It’s a special gift you have. We were so lucky to find you. We also recognize the amount of effort that you put into crafting and delivering the words for the service. It was the most beautiful service to honour Pat... You are indeed at the height of your profession, and I thank you for being there for us.”</p>
 						<p> - Warren Anthes</p>
 						</em>
