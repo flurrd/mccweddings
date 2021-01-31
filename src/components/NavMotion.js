@@ -227,7 +227,7 @@ export const NavMotion = () => {
 
           .nav-links a {
             color: var(--fullscreen-nav-color);
-            font-size: 30px;
+            font-size: 18px;
             display: block;
             margin: 1.5em;
             text-transform: uppercase;

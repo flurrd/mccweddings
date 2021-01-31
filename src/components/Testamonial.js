@@ -60,34 +60,6 @@ export default function Testamonial(props) {
 					background-image: url(../static/hero-bg.jpg);
 					background-size: cover;
 				}
-
-				.testamonial-section .content-max-width {
-					background: none;
-				}
-				.testamonial-section .content-max-width .rte {
-					color: white;
-				}
-
-				.blockquote-testamonial:before,
-.blockquote-testamonial:after {
-	position: absolute;
-	color: #f1efe6;
-	font-size: 8rem;
-	width: 4rem;
-	height: 4rem;
-}
-
-.blockquote-testamonial:before {
-	content: '“';
-	left: -5rem;
-	top: -2rem;
-}
-
-.blockquote-testamonial:after {
-	content: '”';
-	right: -5rem;
-	bottom: 1rem;
-}
 			`}</style>
 		</article>
 	);
