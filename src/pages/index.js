@@ -20,6 +20,7 @@ const Index = (props) => {
 
 				<Hero></Hero>
 				<Intro></Intro>
+				<Contact />
 				<Testamonial></Testamonial>
 				<Gallery></Gallery>
 
@@ -28,7 +29,7 @@ const Index = (props) => {
 					<ReactMarkdown source={markdownBody}/>
 					</section>
 				</article>
-				<Contact />
+
 
 			<style jsx>
 				{`

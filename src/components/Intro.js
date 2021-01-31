@@ -35,6 +35,7 @@ export default function Intro(props) {
 
 					<p>Primarily working on the Central Coast and Lake Macquarie areas. </p>
 					<p>There are many beautiful venues to choose from and if you are finding it hard to choose, feel free to get in touch for some fabulous recommendations for your ceremony.</p>
+					<p><strong><em>Contact me via phone, email or the form below.</em></strong></p>
 				</div>
 			</section>
 
@@ -51,6 +52,7 @@ export default function Intro(props) {
 			
 			.content-intro {
 				padding-top: 0;
+				padding-bottom: 1rem;
 			}
 
 

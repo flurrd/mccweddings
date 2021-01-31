@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Playfair+Display&display=swap);
-@charset "UTF-8";
 :root {
   --theme-color-h: 277;
   --theme-color-s: 50%;
@@ -634,7 +633,7 @@ a.home-link {
       background: var(--btnColor); }
   .hero .h1 {
     font-size: 36px;
-    margin-bottom: 2.5rem; }
+    margin-bottom: 1rem; }
     @media screen and (max-width: 480px) {
       .hero .h1 {
         max-width: 280px; } }
@@ -694,8 +693,6 @@ a.home-link {
 .gallery__grid-item {
   padding: 0; }
   @media screen and (min-width: 900px) {
-    .gallery__grid-item:nth-last-of-type(odd) {
-      filter: grayscale(1); }
     .gallery__grid-item:nth-of-type(9n - 6), .gallery__grid-item:nth-of-type(9n - 3), .gallery__grid-item:nth-of-type(9n - 2) {
       grid-column: span 2 !important;
       grid-row: span 2 !important; }
@@ -721,19 +718,20 @@ a.home-link {
 .blockquote-testamonial:before,
 .blockquote-testamonial:after {
   position: absolute;
-  color: #f1efe6;
+  color: #f1efe642;
   font-size: 8rem;
   width: 4rem;
-  height: 4rem; }
+  height: 4rem;
+  line-height: 1; }
 
 .blockquote-testamonial:before {
   content: '\201C';
-  left: -5rem;
-  top: -2rem; }
+  left: 0;
+  top: 0; }
 
 .blockquote-testamonial:after {
   content: '\201D';
-  right: -5rem;
+  right: 0;
   bottom: 1rem; }
 
 .btn-grp {

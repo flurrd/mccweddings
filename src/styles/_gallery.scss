@@ -48,7 +48,7 @@
   
       @media screen and (min-width: 900px) {
         &:nth-last-of-type(odd) {
-          filter: grayscale(1);
+          //filter: grayscale(1);
         }
         &:nth-of-type(9n - 6),
         &:nth-of-type(9n - 3),

@@ -44,7 +44,7 @@ export default function Testamonial(props) {
 	return (
 		<article className="content-section testamonial-section" id="testamonial">
 			<section className="content-max-width">
-				<div className="rte testamonial ">
+				<div className="rte  ">
 					<blockquote className="blockquote-testamonial">
 						<em>	
 						<p>"We were so impressed by the way you asked questions and listened with empathy to draw out the essence of Pat and to reflect that in your delivery with such a soft and caring nature. It was as if you had known her all your life.</p>
@@ -58,7 +58,6 @@ export default function Testamonial(props) {
 			<style jsx>{`
 				.testamonial-section {
 					background-image: url(../static/hero-bg.jpg);
-					background-size: cover;
 				}
 			`}</style>
 		</article>

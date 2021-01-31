@@ -13,21 +13,22 @@
 
 .blockquote-testamonial:before,
 .blockquote-testamonial:after {
-position: absolute;
-color: #f1efe6;
-font-size: 8rem;
-width: 4rem;
-height: 4rem;
+    position: absolute;
+    color: #f1efe642;
+    font-size: 8rem;
+    width: 4rem;
+    height: 4rem;
+    line-height: 1;
 }
 
 .blockquote-testamonial:before {
-content: '“';
-left: -5rem;
-top: -2rem;
+    content: '\201C';
+    left: 0;
+    top: 0;
 }
 
 .blockquote-testamonial:after {
-content: '”';
-right: -5rem;
-bottom: 1rem;
+    content: '\201D';
+    right: 0;
+    bottom: 1rem;
 }

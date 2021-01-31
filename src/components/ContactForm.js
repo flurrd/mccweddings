@@ -51,10 +51,9 @@ export default function Contact(props) {
 	};
 	return (
 		<article className="content-section" id="contact">
-			<section className="content-max-width rte">
-				<h2>Get in touch</h2>
-				<p>I'm available via phone, email or directly via the form below.</p>
-				<div className="d-flex mar-t-1">
+			<section className="content-max-width contact-max-width">
+				
+				<div className="d-flex">
 					<section className="d-flex f-justify-center">
 						<div className="d-inline-block contact-info-item">
 							<p className="d-flex">
@@ -150,6 +149,7 @@ export default function Contact(props) {
 							flex-direction: column;
 							padding: 1.5rem;
 							align-items: center;
+							max-width: 600px;
 						}
 
 						.contact-form .btn {
@@ -185,6 +185,9 @@ export default function Contact(props) {
 
 						.contact-info-item + .contact-info-item {
 							margin-left: 3rem;
+						}
+						.contact-max-width {
+							padding-top: 0;
 						}
 					`}
 				</style>
