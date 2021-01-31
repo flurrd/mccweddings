@@ -54,7 +54,7 @@ export default function Contact(props) {
 			<section className="content-max-width contact-max-width">
 				
 				<div className="d-flex">
-					<section className="d-flex f-justify-center">
+					<section className="d-flex f-justify-center contact-links">
 						<div className="d-inline-block contact-info-item">
 							<p className="d-flex">
 								<a className="btn d-flex" href="tel:+61 448 914 993">
@@ -189,6 +189,14 @@ export default function Contact(props) {
 						.contact-max-width {
 							padding-top: 0;
 						}
+
+						@media screen and (max-width: 700px){
+							.contact-links {
+								display: flex;
+								flex-direction: column;
+							}
+						}
+						
 					`}
 				</style>
 			</section>
