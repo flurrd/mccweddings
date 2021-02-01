@@ -7,7 +7,7 @@ let footerLinks = [
   { title: 'About me', path: 'about' },
   { title: 'Get in touch', path: "contact" },
   { title: 'Services & rates', path: 'servicesandrates' },  
-  { title: 'Testimonials & gallery', path: 'gallery' }
+  { title: 'Testimonials', path: 'testimonials' }
 
 ]
 export default function Footer(props) {

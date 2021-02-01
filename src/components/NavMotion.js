@@ -19,7 +19,7 @@ let navLinks = [
   { title: 'about me', path: 'about' },
   { title: 'book an appointment', path: 'contact' },
   { title: 'services & rates', path: 'servicesandrates' },  
-  { title: 'testimonials & gallery', path: 'gallery' },  
+  { title: 'testamonials', path: 'testamonials' },  
   { title: 'contact', path: "contact" }
 ]
 const container = {

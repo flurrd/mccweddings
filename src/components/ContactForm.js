@@ -51,7 +51,8 @@ export default function Contact(props) {
 	};
 	return (
 		<article className="content-section pad-t-2" id="contact">
-			<section className="content-max-width contact-max-width">
+			<section className="content-max-width contact-max-width rte">
+				<h2>Get in touch</h2>
 			<p><strong><em>Contact me via phone, email or the form below.</em></strong></p>
 				
 				<div className="d-flex">

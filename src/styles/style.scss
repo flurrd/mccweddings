@@ -17,3 +17,20 @@
 @import "contact";
 
 @import "layout";
+
+
+.slick-slider {
+    max-width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-slider {
+    margin-top: 4vmax;
+    margin-bottom: 4vmax;
+}
+
+.slider-image {
+    filter: grayscale(1);
+    opacity: 0.8;
+}
