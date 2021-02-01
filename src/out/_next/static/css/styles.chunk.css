@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Playfair+Display&display=swap);
+@charset "UTF-8";
 :root {
   --theme-color-h: 260;
   --theme-color-s: 32%;
@@ -605,7 +606,8 @@ a.home-link {
     font-size: 20px; }
   .footer h5 {
     font-size: 13px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    margin-top: 10px; }
 
 .footer-info {
   flex: 1;
@@ -738,17 +740,19 @@ a.home-link {
   max-width: 100%;
   box-shadow: none; }
 
-.testamonial-section {
+.content-section.testimonial-section {
   position: relative;
   max-width: 800px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  background: none;
+  background-color: transparent; }
 
-.testamonial-section .content-max-width {
+.testimonial-section .content-max-width {
   background: none; }
 
-.blockquote-testamonial:before,
-.blockquote-testamonial:after {
+.blockquote-testimonial:before,
+.blockquote-testimonial:after {
   position: absolute;
   color: rgba(191, 191, 191, 0.45);
   font-size: 6rem;
@@ -757,12 +761,12 @@ a.home-link {
   line-height: 1;
   z-index: 0; }
 
-.blockquote-testamonial:before {
+.blockquote-testimonial:before {
   content: '\201C';
   left: 0rem;
   top: 0rem; }
 
-.blockquote-testamonial:after {
+.blockquote-testimonial:after {
   content: '\201D';
   right: 0rem;
   bottom: 0rem; }
@@ -819,6 +823,38 @@ body, html {
 .slider-image {
   filter: grayscale(1);
   opacity: 0.8; }
+
+.testimonials-slider {
+  padding: 2vmax 0vmax;
+  background: #7a61ae;
+  color: white; }
+
+.slick-track {
+  display: flex;
+  align-items: center; }
+
+.slick-dots {
+  display: block;
+  background: #7a61ae00;
+  padding-bottom: 1rem;
+  width: 100%; }
+
+.slick-dots li, .slick-dots li button {
+  width: 30px;
+  height: 30px; }
+
+.slick-dots li button:before {
+  font-size: 12px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  content: '\2022';
+  text-align: center;
+  opacity: .25;
+  color: #fff; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

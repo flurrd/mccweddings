@@ -1,12 +1,12 @@
 import matter from "gray-matter";
 import Hero from "../components/Hero";
-import SimpleSliderTestamonials from "../components/SimpleSliderTestamonials";
+import SimpleSliderTestimonials from "../components/SimpleSliderTestimonials";
 import SimpleSlider from "../components/SimpleSlider";
 import Contact from "../components/ContactForm";
 import Framer from "../components/Framer";
 
 import Intro from "../components/Intro";
-import Testamonial from "../components/Testamonial";
+import Testimonial from "../components/Testimonial";
 import Gallery from "../components/Gallery";
 import { useViewportScroll, useTransform } from "framer-motion";
 import React, { useRef, useState } from "react";
@@ -43,7 +43,12 @@ let galleryArray3 = [
 	{ source: "../static/wedding7.jpg" },
 	{ source: "../static/wedding6.jpg" },
 	{ source: "../static/wedding4.jpg" },
-
+	{ source: "../static/IMG_3077.jpg" },
+	{ source: "../static/IMG_6502.jpg" },
+	{ source: "../static/IMG_8785.jpg" },
+	{ source: "../static/IMG_9533.jpg" },
+	{ source: "../static/IMG_7246.jpg" },
+	{ source: "../static/profile3.jpg" },
 	{ source: "../static/wedding3.jpg" },
 	{ source: "../static/wedding2.jpg" },
 	{ source: "../static/wedding1.jpg" },
@@ -62,7 +67,7 @@ const Index = (props) => {
 			<SimpleSlider galleryImages={galleryArray3}></SimpleSlider>
 			<Contact />
 			<Gallery title={"Gallery"} galleryImages={galleryArray1}></Gallery>
-			<SimpleSliderTestamonials></SimpleSliderTestamonials>
+			<SimpleSliderTestimonials></SimpleSliderTestimonials>
 
 			
 	

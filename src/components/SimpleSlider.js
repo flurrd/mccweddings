@@ -1,31 +1,32 @@
 import React from "react";
 import Slider from "react-slick";
-import Testamonial from "../components/Testamonial";
+import Testimonial from "../components/Testimonial";
 
 export default function SimpleSlider(props) {
   var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     autoplay: true,
     speed: 500,
     slidesToShow: 5,
     slidesToScroll: 5,
+    pauseOnHover: false,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 5,
-          slidesToScroll: 5,
+          slidesToShow: 6,
+          slidesToScroll: 2,
           infinite: true,
-          dots: true
+  
         }
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
-          initialSlide: 3
+          slidesToScroll: 1,
+          initialSlide: 1
         }
       },
       {

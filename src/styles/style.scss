@@ -13,7 +13,7 @@
 
 @import "hero";
 @import "gallery";
-@import "testamonial";
+@import "testimonial";
 @import "contact";
 
 @import "layout";
@@ -33,4 +33,41 @@
 .slider-image {
     filter: grayscale(1);
     opacity: 0.8;
+}
+
+.testimonials-slider {
+    padding: 2vmax 0vmax;
+    background: #7a61ae;
+    color: white;
+}
+
+
+.slick-track {
+    display: flex;
+    align-items: center;
+}
+
+.slick-dots {
+    display: block;
+    background: #7a61ae00;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+.slick-dots li, .slick-dots li button  {
+    width: 30px;
+    height: 30px;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: #fff;
 }

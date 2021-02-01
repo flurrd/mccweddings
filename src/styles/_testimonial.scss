@@ -1,0 +1,38 @@
+.content-section.testimonial-section {
+
+    position: relative;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background: none;
+    background-color: transparent;
+}
+
+.testimonial-section .content-max-width {
+    background: none;
+}
+.testimonial-section .content-max-width .rte {
+}
+
+.blockquote-testimonial:before,
+.blockquote-testimonial:after {
+    position: absolute;
+    color: rgba(191, 191, 191, 0.45);
+    font-size: 6rem;
+    width: 3rem;
+    height: 3rem;
+    line-height: 1;
+    z-index: 0;
+}
+
+.blockquote-testimonial:before {
+    content: '\201C';
+    left: 0rem;
+    top: 0rem;
+}
+
+.blockquote-testimonial:after {
+    content: '\201D';
+    right: 0rem;
+    bottom: 0rem;
+}
