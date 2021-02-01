@@ -71,7 +71,7 @@ export default function Contact(props) {
 
 						<div className="d-inline-block contact-info-item">
 							<p className="d-flex">
-								<a className="btn d-flex f-justify-center" href="mailto:maudecmcc@hotmail.com">
+								<a className="btn d-flex f-justify-center" href="mailto:mc@mccweddings.com">
 									<div className="contact-mail-icon mar-r-1 ">
 										<svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="envelope" className="svg-inline--fa fa-envelope fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
 											<path
@@ -80,7 +80,7 @@ export default function Contact(props) {
 											></path>
 										</svg>
 									</div>
-									<span>maudecmcc@hotmail.com</span>
+									<span>mc@mccweddings.com</span>
 								</a>
 							</p>
 						</div>
