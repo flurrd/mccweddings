@@ -22391,50 +22391,131 @@ module.exports = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Footer; });
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "../node_modules/styled-jsx/style.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "../node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "../node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "../node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-jsx/style */ "../node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "../node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-scroll */ "../node_modules/react-scroll/modules/index.js");
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_3__);
+
 var _jsxFileName = "C:\\mydev\\mccweddings\\src\\components\\Footer.js";
 
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
+var footerLinks = [{
+  title: 'About me',
+  path: 'about'
+}, {
+  title: 'Get in touch',
+  path: "contact"
+}, {
+  title: 'Services & rates',
+  path: 'servicesandrates'
+}, {
+  title: 'Testimonials & gallery',
+  path: 'gallery'
+}];
 function Footer(props) {
   return __jsx("footer", {
-    className: "jsx-3619597798" + " " + "footer",
+    className: "footer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 15
     },
     __self: this
-  }, __jsx("section", {
-    className: "jsx-3619597798" + " " + "footer-info",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, __jsx("h4", {
-    className: "jsx-3619597798",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, "Maureen Catherine Crawley")), __jsx("div", {
-    className: "jsx-3619597798" + " " + "footer-links",
+  }, __jsx("div", {
+    className: "jsx-1697334239" + " " + "footer-content",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
-  }), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "3619597798",
+  }, __jsx("section", {
+    className: "jsx-1697334239" + " " + "footer-info",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
     __self: this
-  }, ".footer.jsx-3619597798{padding:4em 2em;background-color:var(--theme-color-accent-dark);color:white;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin-top:var(--content-section-margin);}.footer-info.jsx-3619597798{-webkit-flex:1;-ms-flex:1;flex:1;max-width:600px;}.footer-links.jsx-3619597798 a.jsx-3619597798{color:white;font-size:20px;margin:1em 1.5em;font-size:14px;}.footer-links.jsx-3619597798{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding-left:3em;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:flex-end;-webkit-box-align:flex-end;-ms-flex-align:flex-end;align-items:flex-end;margin-left:auto;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxteWRldlxcbWNjd2VkZGluZ3NcXHNyY1xcY29tcG9uZW50c1xcRm9vdGVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXFCUyxBQUdpQyxBQVFYLEFBTU8sQUFPQyxZQU5FLElBZGlDLFdBZS9CLE1BUEgsV0FRQyxLQVBuQixVQVFBLEtBaEJnQixVQW9CSyxFQW5CSixlQW9CVSwyREFsQmtCLHdDQW1CcEIsQ0FsQnpCLG9HQW1CcUIsaUJBQ3JCIiwiZmlsZSI6IkM6XFxteWRldlxcbWNjd2VkZGluZ3NcXHNyY1xcY29tcG9uZW50c1xcRm9vdGVyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSBcIm5leHQvbGlua1wiO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBGb290ZXIocHJvcHMpIHtcbiAgcmV0dXJuIChcbiAgICA8Zm9vdGVyIGNsYXNzTmFtZT1cImZvb3RlclwiPlxuXG5cbiAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT1cImZvb3Rlci1pbmZvXCI+XG4gICAgICAgIDxoND5cbiAgICAgICAgICBNYXVyZWVuIENhdGhlcmluZSBDcmF3bGV5XG5cbiAgICAgICAgPC9oND5cbiBcbiAgICAgIDwvc2VjdGlvbj5cblxuXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZm9vdGVyLWxpbmtzXCI+XG5cblxuICAgICAgICA8L2Rpdj5cbiAgICAgIDxzdHlsZSBqc3g+XG4gICAgICAgIHtgXG4gICAgICAgICAgICAuZm9vdGVyIHtcbiAgICAgICAgICAgICAgICBwYWRkaW5nOiA0ZW0gMmVtO1xuICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLXRoZW1lLWNvbG9yLWFjY2VudC1kYXJrKTtcbiAgICAgICAgICAgICAgICBjb2xvcjogd2hpdGU7XG4gICAgICAgICAgICAgICAgZGlzcGxheTogZmxleDtcblxuICAgICAgICAgICAgICAgIG1hcmdpbi10b3A6IHZhcigtLWNvbnRlbnQtc2VjdGlvbi1tYXJnaW4pO1xuICAgICAgICAgICAgfVxuICAgICAgICAgICAgLmZvb3Rlci1pbmZvIHtcbiAgICAgICAgICAgICAgZmxleDogMTtcbiAgICAgICAgICAgICAgbWF4LXdpZHRoOiA2MDBweDtcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgLmZvb3Rlci1saW5rcyBhIHtcblxuICAgICAgICAgICAgICAgIGNvbG9yOiB3aGl0ZTtcbiAgICAgICAgICAgICAgICBmb250LXNpemU6IDIwcHg7XG4gICAgICAgICAgICAgICAgbWFyZ2luOiAxZW0gMS41ZW07XG4gICAgICAgICAgICAgICAgZm9udC1zaXplOiAxNHB4O1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAuZm9vdGVyLWxpbmtzIHtcbiAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAgICAgIHBhZGRpbmctbGVmdDogM2VtO1xuICAgICAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBmbGV4LWVuZDtcbiAgICAgICAgICAgICAgICBtYXJnaW4tbGVmdDogYXV0bztcbiAgICAgICAgICAgIH1cblxuICAgICAgICBgfVxuICAgICAgPC9zdHlsZT5cbiAgICA8L2Zvb3Rlcj5cbiAgKTtcbn1cblxuIl19 */\n/*@ sourceURL=C:\\\\mydev\\\\mccweddings\\\\src\\\\components\\\\Footer.js */"));
+  }, __jsx("img", {
+    width: "100px",
+    src: "../static/circle.png",
+    className: "jsx-1697334239" + " " + "mandala",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }), __jsx("h5", {
+    className: "jsx-1697334239",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, "CELEBRANT"), __jsx("h2", {
+    className: "jsx-1697334239",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, "Maureen Catherine Crawley"), __jsx("a", {
+    href: "tel:+61 448 914 993",
+    className: "jsx-1697334239" + " " + "footer__contact-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, "+61 448 914 993"), __jsx("br", {
+    className: "jsx-1697334239",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }), __jsx("a", {
+    href: "mailto:mc@mccweddings.com",
+    className: "jsx-1697334239" + " " + "footer__contact-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "mc@mccweddings.com")), __jsx("div", {
+    className: "jsx-1697334239" + " " + "footer-links",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, footerLinks.length > 1 && footerLinks.map(function (footerLink) {
+    var _jsx;
+
+    return __jsx("div", {
+      key: footerLink.path,
+      className: "jsx-1697334239" + " " + "footer__link",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34
+      },
+      __self: this
+    }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_3__["Link"], (_jsx = {
+      className: "footer__link-a",
+      to: footerLink.path,
+      spy: true,
+      smooth: true
+    }, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "to", footerLink.path), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "__source", {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    }), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "__self", this), _jsx), footerLink.title));
+  })), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    id: "1697334239",
+    __self: this
+  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxteWRldlxcbWNjd2VkZGluZ3NcXHNyY1xcY29tcG9uZW50c1xcRm9vdGVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWlEUyIsImZpbGUiOiJDOlxcbXlkZXZcXG1jY3dlZGRpbmdzXFxzcmNcXGNvbXBvbmVudHNcXEZvb3Rlci5qcyIsInNvdXJjZXNDb250ZW50IjpbIlxuXG5pbXBvcnQgeyBMaW5rIGFzIFNjTGluaywgRGlyZWN0TGluaywgRWxlbWVudCwgRXZlbnRzLCBhbmltYXRlU2Nyb2xsIGFzIHNjcm9sbCwgc2Nyb2xsU3B5LCBzY3JvbGxlciB9IGZyb20gJ3JlYWN0LXNjcm9sbCdcblxuXG5sZXQgZm9vdGVyTGlua3MgPSBbXG4gIHsgdGl0bGU6ICdBYm91dCBtZScsIHBhdGg6ICdhYm91dCcgfSxcbiAgeyB0aXRsZTogJ0dldCBpbiB0b3VjaCcsIHBhdGg6IFwiY29udGFjdFwiIH0sXG4gIHsgdGl0bGU6ICdTZXJ2aWNlcyAmIHJhdGVzJywgcGF0aDogJ3NlcnZpY2VzYW5kcmF0ZXMnIH0sICBcbiAgeyB0aXRsZTogJ1Rlc3RpbW9uaWFscyAmIGdhbGxlcnknLCBwYXRoOiAnZ2FsbGVyeScgfVxuXG5dXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBGb290ZXIocHJvcHMpIHtcbiAgcmV0dXJuIChcbiAgICA8Zm9vdGVyIGNsYXNzTmFtZT1cImZvb3RlclwiPlxuXG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImZvb3Rlci1jb250ZW50XCI+XG4gICAgICA8c2VjdGlvbiBjbGFzc05hbWU9XCJmb290ZXItaW5mb1wiPlxuICAgICAgPGltZyB3aWR0aD1cIjEwMHB4XCIgY2xhc3NOYW1lPVwibWFuZGFsYVwiIHNyYz1cIi4uL3N0YXRpYy9jaXJjbGUucG5nXCI+PC9pbWc+XG4gICAgICAgIDxoNT5DRUxFQlJBTlQ8L2g1PlxuICAgICAgICA8aDI+XG4gICAgICAgICAgTWF1cmVlbiBDYXRoZXJpbmUgQ3Jhd2xleVxuXG4gICAgICAgIDwvaDI+XG4gICAgICAgIDxhIGNsYXNzTmFtZT1cImZvb3Rlcl9fY29udGFjdC1saW5rXCIgaHJlZj1cInRlbDorNjEgNDQ4IDkxNCA5OTNcIj4rNjEgNDQ4IDkxNCA5OTM8L2E+PGJyPjwvYnI+XG4gICAgICAgIDxhIGNsYXNzTmFtZT1cImZvb3Rlcl9fY29udGFjdC1saW5rXCIgaHJlZj1cIm1haWx0bzptY0BtY2N3ZWRkaW5ncy5jb21cIj5tY0BtY2N3ZWRkaW5ncy5jb208L2E+XG4gICAgICA8L3NlY3Rpb24+XG5cblxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZvb3Rlci1saW5rc1wiPlxuXG5cbiAgICAgICAge2Zvb3RlckxpbmtzLmxlbmd0aCA+IDEgJiYgZm9vdGVyTGlua3MubWFwKGZvb3RlckxpbmsgPT4gKFxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZm9vdGVyX19saW5rXCIga2V5PXtmb290ZXJMaW5rLnBhdGh9IFxuICAgICAgICAgICAgICAgICAgPlxuICAgICAgICAgICAgICAgICAgPFNjTGluayBjbGFzc05hbWU9XCJmb290ZXJfX2xpbmstYVwiIHRvPXtmb290ZXJMaW5rLnBhdGh9IHNweSBzbW9vdGggdG89e2Zvb3RlckxpbmsucGF0aH1cbiAgICAgICAgICAgICAgICAgID5cbiAgICAgICAgICAgICAgICAgICAge2Zvb3RlckxpbmsudGl0bGV9XG4gICAgICAgICAgICAgICAgICA8L1NjTGluaz5cbiAgICAgICAgICAgICAgICA8L2RpdiA+XG5cblxuXG4gICAgICAgICAgICAgICkpfVxuXG4gICAgICAgIDwvZGl2PlxuXG4gICAgICAgIFxuICAgICAgPHN0eWxlIGpzeD5cbiAgICAgICAge2BcbiAgICAgICAgICAgXG5cbiAgICAgICAgYH1cbiAgICAgIDwvc3R5bGU+XG5cbiAgICAgIDwvZGl2PlxuICAgIDwvZm9vdGVyPlxuICApO1xufVxuXG4iXX0= */\n/*@ sourceURL=C:\\\\mydev\\\\mccweddings\\\\src\\\\components\\\\Footer.js */")));
 }
 
 /***/ }),

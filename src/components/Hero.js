@@ -50,10 +50,9 @@ class Hero extends React.Component {
       <>
       <section className="hero" name="home" id="home">
 
-{/*  */}
 
         <div className="hero__content">
-        <img width="100px" className="mandala" src="../static/circle.png"></img>
+        
           <h1>
 <span className="h3">Celebrant</span>
           <span className="h2">Maureen Catherine Crawley</span>

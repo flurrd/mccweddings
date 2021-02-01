@@ -1,56 +1,59 @@
-import Link from "next/link";
 
+
+import { Link as ScLink, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
+
+let footerLinks = [
+  { title: 'About me', path: 'about' },
+  { title: 'Get in touch', path: "contact" },
+  { title: 'Services & rates', path: 'servicesandrates' },  
+  { title: 'Testimonials & gallery', path: 'gallery' }
+
+]
 export default function Footer(props) {
   return (
     <footer className="footer">
 
-
+      <div className="footer-content">
       <section className="footer-info">
-        <h4>
+      <img width="100px" className="mandala" src="../static/circle.png"></img>
+        <h5>CELEBRANT</h5>
+        <h2>
           Maureen Catherine Crawley
 
-        </h4>
- 
+        </h2>
+        <a className="footer__contact-link" href="tel:+61 448 914 993">+61 448 914 993</a><br></br>
+        <a className="footer__contact-link" href="mailto:mc@mccweddings.com">mc@mccweddings.com</a>
       </section>
 
 
         <div className="footer-links">
 
 
+        {footerLinks.length > 1 && footerLinks.map(footerLink => (
+                <div className="footer__link" key={footerLink.path} 
+                  >
+                  <ScLink className="footer__link-a" to={footerLink.path} spy smooth to={footerLink.path}
+                  >
+                    {footerLink.title}
+                  </ScLink>
+                </div >
+
+
+
+              ))}
+
         </div>
+
+        
       <style jsx>
         {`
-            .footer {
-                padding: 4em 2em;
-                background-color: var(--theme-color-accent-dark);
-                color: white;
-                display: flex;
-
-                margin-top: var(--content-section-margin);
-            }
-            .footer-info {
-              flex: 1;
-              max-width: 600px;
-            }
-
-            .footer-links a {
-
-                color: white;
-                font-size: 20px;
-                margin: 1em 1.5em;
-                font-size: 14px;
-            }
-
-            .footer-links {
-                display: flex;
-                padding-left: 3em;
-                justify-content: center;
-                align-items: flex-end;
-                margin-left: auto;
-            }
+           
 
         `}
       </style>
+
+      </div>
     </footer>
   );
 }
