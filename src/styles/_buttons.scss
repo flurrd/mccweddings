@@ -44,7 +44,7 @@ $button-lrg: 1.3em;
     background-color: var(--btnColor);
     padding: calc(var(--button-size)) calc(var(--button-size) / 0.5);
     text-decoration: none;
-    font-weight: $font-ss-light;
+    //font-weight: $font-ss-light;
     transition: all 0.3s ease;
     cursor: pointer;
     letter-spacing: 2px;

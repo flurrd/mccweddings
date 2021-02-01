@@ -1,34 +1,36 @@
 .testamonial-section {
-    background-image: url(../static/hero-bg.jpg);
-    background-size: cover;
+
     position: relative;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .testamonial-section .content-max-width {
     background: none;
 }
 .testamonial-section .content-max-width .rte {
-    color: white;
 }
 
 .blockquote-testamonial:before,
 .blockquote-testamonial:after {
     position: absolute;
-    color: #f1efe642;
-    font-size: 8rem;
-    width: 4rem;
-    height: 4rem;
+    color: rgba(191, 191, 191, 0.45);
+    font-size: 6rem;
+    width: 3rem;
+    height: 3rem;
     line-height: 1;
+    z-index: 0;
 }
 
 .blockquote-testamonial:before {
     content: '\201C';
-    left: 0;
-    top: 0;
+    left: 0rem;
+    top: 0rem;
 }
 
 .blockquote-testamonial:after {
     content: '\201D';
-    right: 0;
-    bottom: 1rem;
+    right: 0rem;
+    bottom: 0rem;
 }

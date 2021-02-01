@@ -1,7 +1,10 @@
 :root {
-    --theme-color-h: 277;
-    --theme-color-s: 50%;
-    --theme-color-l: 26%;
+    --theme-color-h: 260;
+    --theme-color-s: 32%;
+    --theme-color-l: 53%;
+
+    --theme-color-compliment: #623e8e;
+    --theme-color-compliment-dark: #47296b;
     --theme-color-h-opp: calc(var(--theme-color-h) + 90);
 
     //--theme-color-white:hsl(var(--theme-color-h), 100%, 97%);

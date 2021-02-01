@@ -12,23 +12,62 @@ import React, { useRef, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import ContentBlock from "../components/ContentBlock";
 
+
+
+let galleryArray1 = [
+	{ source: "../static/IMG_1600.jpg" },
+	{ source: "../static/IMG_3346.jpg" },
+	{ source: "../static/heart.jpg" },
+	{ source: "../static/IMG_9892.jpg" },
+	{ source: "../static/IMG_4797.jpg" },
+	{ source: "../static/IMG_7090.jpg" },
+];
+
+let galleryArray2 = [
+	{ source: "../static/IMG_3077.jpg" },
+	{ source: "../static/IMG_6502.jpg" },
+	{ source: "../static/IMG_8785.jpg" },
+	{ source: "../static/IMG_9533.jpg" },
+	{ source: "../static/IMG_7246.jpg" },
+	{ source: "../static/profile3.jpg" },
+];
+
+let galleryArray3 = [
+	{ source: "../static/wedding7.jpg" },
+	{ source: "../static/wedding6.jpg" },
+	{ source: "../static/wedding4.jpg" },
+
+	{ source: "../static/wedding3.jpg" },
+	{ source: "../static/wedding2.jpg" },
+	{ source: "../static/wedding1.jpg" },
+];
+
+
 const Index = (props) => {
 	const markdownBody = props.content;
 	const root = useRef();
 	return (
 		<div className="index-wrap" ref={root}>
 
-				<Hero></Hero>
-				<Intro></Intro>
-				<Contact />
-				<Testamonial></Testamonial>
-				<Gallery></Gallery>
+			<Hero></Hero>
+			<Intro></Intro>
+			<Contact />
+			<Gallery title={"Gallery & Testamonials"} galleryImages={galleryArray1}></Gallery>
 
-				<article className="content-section"  name="servicesandrates" id="servicesandrates">
-					<section className="content-max-width text-left rte">
-					<ReactMarkdown source={markdownBody}/>
-					</section>
-				</article>
+			<Testamonial content={"<p>Ben and I would like to thank you from the bottom of our hearts for the most perfect wedding ceremony. Everyone came up to us and commented on how warm and loving your service was. We cannot recommend you highly enough. You are thoughtful, professional, loving and kind.</p><p>We know and feel that your job is your vocation and your beautiful soul shines through.</p><p>- Angie</p>"}></Testamonial>
+
+			<Gallery galleryImages={galleryArray2}></Gallery>
+
+			<Testamonial content={"<p>We were so impressed by the way you asked questions and listened with empathy to draw out the essence of Pat and to reflect that in your delivery with such a soft and caring nature. It was as if you had known her all your life.</p><p>It’s a special gift you have. We were so lucky to find you. We also recognize the amount of effort that you put into crafting and delivering the words for the service. It was the most beautiful service to honour Pat... You are indeed at the height of your profession, and I thank you for being there for us.</p><p> - Warren Anthes</p>"}></Testamonial>
+		
+			<Gallery galleryImages={galleryArray3}></Gallery>
+<Testamonial content={"<p>We would like to express our appreciation for the compassion and empathy you showed yesterday.  With all that was happening, we were not able to properly thank you for all you did. Hazel's send-off was perfect. In fact, a number of people commented that you must have been a friend of the family and known Hazel yourself!</p><p>Saying goodbye was never going to be easy but your handling of everything from start to finish was warm and yet professional,made it so much easier for us all.</p><p> - Daryll and Anne Lloyd</p>"}></Testamonial>
+
+			<article className="content-section"  name="servicesandrates" id="servicesandrates">
+				<section className="content-max-width text-left rte">
+				<ReactMarkdown source={markdownBody}/>
+				</section>
+			</article>
 
 
 			<style jsx>

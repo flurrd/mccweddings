@@ -50,10 +50,10 @@ class Hero extends React.Component {
       <>
       <section className="hero" name="home" id="home">
 
-{/* <img className="mandala-circle" src="../static/circle.png"></img> */}
+{/*  */}
 
         <div className="hero__content">
-
+        <img width="100px" className="mandala" src="../static/circle.png"></img>
           <h1>
 <span className="h3">Celebrant</span>
           <span className="h2">Maureen Catherine Crawley</span>
@@ -91,8 +91,10 @@ class Hero extends React.Component {
 
             .hero {
 
-              background-image: url(../static/hero-bg.jpg);
+              /* background-image: url(../static/hero-bg.jpg); */
               background-size: cover;
+              background-image: url(../static/IMG_9872-alt.jpg);
+              background-position: bottom;
               display: flex;
               align-items: center;
               justify-content: center;
@@ -131,10 +133,11 @@ class Hero extends React.Component {
             }
 
 
-            .mandala-circle {
-              opacity: 0.2 !important;
-              max-width: 90vh;
-              max-height: 90vh;
+            .mandala {
+             display: none;
+              width: 150px;
+              max-width: 150px;
+             // max-height: 90vh;
             }
 
 
