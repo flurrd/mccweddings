@@ -22478,14 +22478,14 @@ function Footer(props) {
     },
     __self: this
   }), __jsx("a", {
-    href: "mailto:maudecmcc@hotmail.com",
+    href: "mailto:mc@mccweddings.com",
     className: "jsx-1697334239" + " " + "footer__contact-link",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
     },
     __self: this
-  }, "maudecmcc@hotmail.com")), __jsx("div", {
+  }, "mc@mccweddings.com")), __jsx("div", {
     className: "jsx-1697334239" + " " + "footer-links",
     __source: {
       fileName: _jsxFileName,
@@ -22515,7 +22515,7 @@ function Footer(props) {
   })), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default.a, {
     id: "1697334239",
     __self: this
-  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxteWRldlxcbWNjd2VkZGluZ3NcXHNyY1xcY29tcG9uZW50c1xcRm9vdGVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWlEUyIsImZpbGUiOiJDOlxcbXlkZXZcXG1jY3dlZGRpbmdzXFxzcmNcXGNvbXBvbmVudHNcXEZvb3Rlci5qcyIsInNvdXJjZXNDb250ZW50IjpbIlxuXG5pbXBvcnQgeyBMaW5rIGFzIFNjTGluaywgRGlyZWN0TGluaywgRWxlbWVudCwgRXZlbnRzLCBhbmltYXRlU2Nyb2xsIGFzIHNjcm9sbCwgc2Nyb2xsU3B5LCBzY3JvbGxlciB9IGZyb20gJ3JlYWN0LXNjcm9sbCdcblxuXG5sZXQgZm9vdGVyTGlua3MgPSBbXG4gIHsgdGl0bGU6ICdBYm91dCBtZScsIHBhdGg6ICdhYm91dCcgfSxcbiAgeyB0aXRsZTogJ0dldCBpbiB0b3VjaCcsIHBhdGg6IFwiY29udGFjdFwiIH0sXG4gIHsgdGl0bGU6ICdTZXJ2aWNlcyAmIHJhdGVzJywgcGF0aDogJ3NlcnZpY2VzYW5kcmF0ZXMnIH0sICBcbiAgeyB0aXRsZTogJ1Rlc3RpbW9uaWFscyAmIGdhbGxlcnknLCBwYXRoOiAnZ2FsbGVyeScgfVxuXG5dXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBGb290ZXIocHJvcHMpIHtcbiAgcmV0dXJuIChcbiAgICA8Zm9vdGVyIGNsYXNzTmFtZT1cImZvb3RlclwiPlxuXG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImZvb3Rlci1jb250ZW50XCI+XG4gICAgICA8c2VjdGlvbiBjbGFzc05hbWU9XCJmb290ZXItaW5mb1wiPlxuICAgICAgPGltZyB3aWR0aD1cIjEwMHB4XCIgY2xhc3NOYW1lPVwibWFuZGFsYVwiIHNyYz1cIi4uL3N0YXRpYy9jaXJjbGUucG5nXCI+PC9pbWc+XG4gICAgICAgIDxoNT5DRUxFQlJBTlQ8L2g1PlxuICAgICAgICA8aDI+XG4gICAgICAgICAgTWF1cmVlbiBDYXRoZXJpbmUgQ3Jhd2xleVxuXG4gICAgICAgIDwvaDI+XG4gICAgICAgIDxhIGNsYXNzTmFtZT1cImZvb3Rlcl9fY29udGFjdC1saW5rXCIgaHJlZj1cInRlbDorNjEgNDQ4IDkxNCA5OTNcIj4rNjEgNDQ4IDkxNCA5OTM8L2E+PGJyPjwvYnI+XG4gICAgICAgIDxhIGNsYXNzTmFtZT1cImZvb3Rlcl9fY29udGFjdC1saW5rXCIgaHJlZj1cIm1haWx0bzptYXVkZWNtY2NAaG90bWFpbC5jb21cIj5tYXVkZWNtY2NAaG90bWFpbC5jb208L2E+XG4gICAgICA8L3NlY3Rpb24+XG5cblxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZvb3Rlci1saW5rc1wiPlxuXG5cbiAgICAgICAge2Zvb3RlckxpbmtzLmxlbmd0aCA+IDEgJiYgZm9vdGVyTGlua3MubWFwKGZvb3RlckxpbmsgPT4gKFxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZm9vdGVyX19saW5rXCIga2V5PXtmb290ZXJMaW5rLnBhdGh9IFxuICAgICAgICAgICAgICAgICAgPlxuICAgICAgICAgICAgICAgICAgPFNjTGluayBjbGFzc05hbWU9XCJmb290ZXJfX2xpbmstYVwiIHRvPXtmb290ZXJMaW5rLnBhdGh9IHNweSBzbW9vdGggdG89e2Zvb3RlckxpbmsucGF0aH1cbiAgICAgICAgICAgICAgICAgID5cbiAgICAgICAgICAgICAgICAgICAge2Zvb3RlckxpbmsudGl0bGV9XG4gICAgICAgICAgICAgICAgICA8L1NjTGluaz5cbiAgICAgICAgICAgICAgICA8L2RpdiA+XG5cblxuXG4gICAgICAgICAgICAgICkpfVxuXG4gICAgICAgIDwvZGl2PlxuXG4gICAgICAgIFxuICAgICAgPHN0eWxlIGpzeD5cbiAgICAgICAge2BcbiAgICAgICAgICAgXG5cbiAgICAgICAgYH1cbiAgICAgIDwvc3R5bGU+XG5cbiAgICAgIDwvZGl2PlxuICAgIDwvZm9vdGVyPlxuICApO1xufVxuXG4iXX0= */\n/*@ sourceURL=C:\\\\mydev\\\\mccweddings\\\\src\\\\components\\\\Footer.js */")));
+  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxteWRldlxcbWNjd2VkZGluZ3NcXHNyY1xcY29tcG9uZW50c1xcRm9vdGVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWlEUyIsImZpbGUiOiJDOlxcbXlkZXZcXG1jY3dlZGRpbmdzXFxzcmNcXGNvbXBvbmVudHNcXEZvb3Rlci5qcyIsInNvdXJjZXNDb250ZW50IjpbIlxuXG5pbXBvcnQgeyBMaW5rIGFzIFNjTGluaywgRGlyZWN0TGluaywgRWxlbWVudCwgRXZlbnRzLCBhbmltYXRlU2Nyb2xsIGFzIHNjcm9sbCwgc2Nyb2xsU3B5LCBzY3JvbGxlciB9IGZyb20gJ3JlYWN0LXNjcm9sbCdcblxuXG5sZXQgZm9vdGVyTGlua3MgPSBbXG4gIHsgdGl0bGU6ICdBYm91dCBtZScsIHBhdGg6ICdhYm91dCcgfSxcbiAgeyB0aXRsZTogJ0dldCBpbiB0b3VjaCcsIHBhdGg6IFwiY29udGFjdFwiIH0sXG4gIHsgdGl0bGU6ICdTZXJ2aWNlcyAmIHJhdGVzJywgcGF0aDogJ3NlcnZpY2VzYW5kcmF0ZXMnIH0sICBcbiAgeyB0aXRsZTogJ1Rlc3RpbW9uaWFscyAmIGdhbGxlcnknLCBwYXRoOiAnZ2FsbGVyeScgfVxuXG5dXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBGb290ZXIocHJvcHMpIHtcbiAgcmV0dXJuIChcbiAgICA8Zm9vdGVyIGNsYXNzTmFtZT1cImZvb3RlclwiPlxuXG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImZvb3Rlci1jb250ZW50XCI+XG4gICAgICA8c2VjdGlvbiBjbGFzc05hbWU9XCJmb290ZXItaW5mb1wiPlxuICAgICAgPGltZyB3aWR0aD1cIjEwMHB4XCIgY2xhc3NOYW1lPVwibWFuZGFsYVwiIHNyYz1cIi4uL3N0YXRpYy9jaXJjbGUucG5nXCI+PC9pbWc+XG4gICAgICAgIDxoNT5DRUxFQlJBTlQ8L2g1PlxuICAgICAgICA8aDI+XG4gICAgICAgICAgTWF1cmVlbiBDYXRoZXJpbmUgQ3Jhd2xleVxuXG4gICAgICAgIDwvaDI+XG4gICAgICAgIDxhIGNsYXNzTmFtZT1cImZvb3Rlcl9fY29udGFjdC1saW5rXCIgaHJlZj1cInRlbDorNjEgNDQ4IDkxNCA5OTNcIj4rNjEgNDQ4IDkxNCA5OTM8L2E+PGJyPjwvYnI+XG4gICAgICAgIDxhIGNsYXNzTmFtZT1cImZvb3Rlcl9fY29udGFjdC1saW5rXCIgaHJlZj1cIm1haWx0bzptY0BtY2N3ZWRkaW5ncy5jb21cIj5tY0BtY2N3ZWRkaW5ncy5jb208L2E+XG4gICAgICA8L3NlY3Rpb24+XG5cblxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZvb3Rlci1saW5rc1wiPlxuXG5cbiAgICAgICAge2Zvb3RlckxpbmtzLmxlbmd0aCA+IDEgJiYgZm9vdGVyTGlua3MubWFwKGZvb3RlckxpbmsgPT4gKFxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZm9vdGVyX19saW5rXCIga2V5PXtmb290ZXJMaW5rLnBhdGh9IFxuICAgICAgICAgICAgICAgICAgPlxuICAgICAgICAgICAgICAgICAgPFNjTGluayBjbGFzc05hbWU9XCJmb290ZXJfX2xpbmstYVwiIHRvPXtmb290ZXJMaW5rLnBhdGh9IHNweSBzbW9vdGggdG89e2Zvb3RlckxpbmsucGF0aH1cbiAgICAgICAgICAgICAgICAgID5cbiAgICAgICAgICAgICAgICAgICAge2Zvb3RlckxpbmsudGl0bGV9XG4gICAgICAgICAgICAgICAgICA8L1NjTGluaz5cbiAgICAgICAgICAgICAgICA8L2RpdiA+XG5cblxuXG4gICAgICAgICAgICAgICkpfVxuXG4gICAgICAgIDwvZGl2PlxuXG4gICAgICAgIFxuICAgICAgPHN0eWxlIGpzeD5cbiAgICAgICAge2BcbiAgICAgICAgICAgXG5cbiAgICAgICAgYH1cbiAgICAgIDwvc3R5bGU+XG5cbiAgICAgIDwvZGl2PlxuICAgIDwvZm9vdGVyPlxuICApO1xufVxuXG4iXX0= */\n/*@ sourceURL=C:\\\\mydev\\\\mccweddings\\\\src\\\\components\\\\Footer.js */")));
 }
 
 /***/ }),
@@ -22604,7 +22604,7 @@ var Meta = function Meta(props) {
       lineNumber: 4
     },
     __self: this
-  }, props.title), __jsx("meta", {
+  }, "Celebrant | Maureen Catherine Crawley"), __jsx("meta", {
     name: "description",
     content: props.desc,
     __source: {
@@ -22631,7 +22631,7 @@ var Meta = function Meta(props) {
     __self: this
   }), __jsx("script", {
     src: "https://kit.fontawesome.com/595162865f.js",
-    crossorigin: "anonymous",
+    crossOrigin: "anonymous",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
