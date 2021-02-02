@@ -33,7 +33,7 @@ export default function Contact(props) {
 			if (json.success) {
 				setResponse({
 					type: "success",
-					message: "Thank you for reaching out to us.",
+					message: "Your message has been sent, thank you.",
 				});
 			} else {
 				setResponse({

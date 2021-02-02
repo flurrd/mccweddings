@@ -10,7 +10,7 @@ A celebrant should cost more than your cake, less than your photographer and be 
 
 #### FULL CEREMONY PACKAGE: $950 + gst
 
-A full ceremony package includes all items below. I am happy to accomodate request of additional services to make your ceremony more personal and memorable. I will supply you with a fixed quote after we agree upon what you want for your wedding and how we can best achieve this.
+A full ceremony package includes all items below. I am happy to accommodate request of additional services to make your ceremony more personal and memorable. I will supply you with a fixed quote after we agree upon what you want for your wedding and how we can best achieve this.
 
 *   A personalised, heartfelt ceremony.
 *   Complimentary use of my portable PA system, that your wedding music can be played through. I would appreciate you nominating someone on the day to coordinate the music.

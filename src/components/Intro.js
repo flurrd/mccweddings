@@ -31,7 +31,7 @@ export default function Intro(props) {
                 <div className="rte intro mar-t-3">
 					<h2>It is my wish to make your day special</h2>
 
-					<p>I offer a warm, compassionate and professional service to my clients. My promise is to make your wedding day or life celebration memorable, hearfteft, sacred and authentic.</p>
+					<p>I offer a warm, compassionate and professional service to my clients. My promise is to make your wedding day or life celebration memorable, heartfeft, sacred and authentic.</p>
 
 					<p>Primarily working on the Central Coast and Lake Macquarie areas. </p>
 					<p>There are many beautiful venues to choose from and if you are finding it hard to choose, feel free to get in touch for some fabulous recommendations for your ceremony.</p>

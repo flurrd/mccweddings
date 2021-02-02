@@ -22,7 +22,7 @@ export default function Footer(props) {
           Maureen Catherine Crawley
 
         </h2>
-        <a className="footer__contact-link" href="tel:+61 448 914 993">+61 448 914 993</a><br></br>
+        <a className="footer__contact-link" href="tel:+61 418 113 799">0418 113 799</a><br></br>
         <a className="footer__contact-link" href="mailto:mc@mccweddings.com">mc@mccweddings.com</a>
       </section>
 
