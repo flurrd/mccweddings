@@ -10,7 +10,7 @@ export default function Contact(props) {
 		phone: "",
 		message: "",
 		replyTo: "@", // this will set replyTo of email to email address entered in the form
-		accessKey: "9c86c327-b21f-4644-8ae7-40b0972a8b39", // get your access key from https://www.staticforms.xyz
+		accessKey: "d92f1549-6739-4772-943d-b4116ed4ad6e", // get your access key from https://www.staticforms.xyz
 	});
 	const handleChange = (e) => setContact({ ...contact, [e.target.name]: e.target.value });
 
