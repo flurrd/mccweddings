@@ -16,43 +16,35 @@ import ContentBlock from "../components/ContentBlock";
 
 
 let galleryArray1 = [
-	{ source: "../static/IMG_1600.jpg" },
-	{ source: "../static/IMG_3346.jpg" },
-	{ source: "../static/heart.jpg" },
-	{ source: "../static/IMG_9892.jpg" },
-	{ source: "../static/IMG_4797.jpg" },
-	{ source: "../static/IMG_7090.jpg" },
-	{ source: "../static/wedding7.jpg" },
-	{ source: "../static/wedding6.jpg" },
-	{ source: "../static/wedding4.jpg" },
-	{ source: "../static/wedding3.jpg" },
-	{ source: "../static/wedding2.jpg" },
-	{ source: "../static/wedding1.jpg" }
+	{ source: "../static/slider-1.jpg" },
+	{ source: "../static/slider-2.jpg" },
+	{ source: "../static/slider-3.jpg" },
+	{ source: "../static/slider-4.jpg" },
+	{ source: "../static/slider-5.jpg" },
+	{ source: "../static/slider-6.jpg" },
+	{ source: "../static/slider-7.jpg" },
+	{ source: "../static/slider-8.jpg" },
+	{ source: "../static/slider-9.jpg" },
+	{ source: "../static/slider-10.jpg" },
+	{ source: "../static/slider-11.jpg" },
+	{ source: "../static/slider-12.jpg" },
 ];
 
 let galleryArray2 = [
-	{ source: "../static/IMG_3077.jpg" },
-	{ source: "../static/IMG_6502.jpg" },
-	{ source: "../static/IMG_8785.jpg" },
-	{ source: "../static/IMG_9533.jpg" },
-	{ source: "../static/IMG_7246.jpg" },
-	{ source: "../static/profile3.jpg" },
+	{ source: "../static/gallery-1.jpg" },
+	{ source: "../static/gallery-2.jpg" },
+	{ source: "../static/gallery-3.jpg" },
+	{ source: "../static/gallery-4.jpg" },
+	{ source: "../static/gallery-5.jpg" },
+	{ source: "../static/gallery-6.jpg" },
+	{ source: "../static/gallery-7.jpg" },
+	{ source: "../static/gallery-8.jpg" },
+	{ source: "../static/gallery-9.jpg" },
+	{ source: "../static/gallery-10.jpg" },
+	{ source: "../static/gallery-11.jpg" },
+	{ source: "../static/gallery-12.jpg" },
 ];
 
-let galleryArray3 = [
-	{ source: "../static/wedding7.jpg" },
-	{ source: "../static/wedding6.jpg" },
-	{ source: "../static/wedding4.jpg" },
-	{ source: "../static/IMG_3077.jpg" },
-	{ source: "../static/IMG_6502.jpg" },
-	{ source: "../static/IMG_8785.jpg" },
-	{ source: "../static/IMG_9533.jpg" },
-	{ source: "../static/IMG_7246.jpg" },
-	{ source: "../static/profile3.jpg" },
-	{ source: "../static/wedding3.jpg" },
-	{ source: "../static/wedding2.jpg" },
-	{ source: "../static/wedding1.jpg" },
-];
 
 
 const Index = (props) => {
@@ -64,9 +56,9 @@ const Index = (props) => {
 			<Hero></Hero>
 		
 			<Intro></Intro>
-			<SimpleSlider galleryImages={galleryArray3}></SimpleSlider>
+			<SimpleSlider galleryImages={galleryArray1}></SimpleSlider>
 			<Contact />
-			<Gallery title={"Gallery"} galleryImages={galleryArray1}></Gallery>
+			<Gallery title={"Gallery"} galleryImages={galleryArray2}></Gallery>
 			<SimpleSliderTestimonials></SimpleSliderTestimonials>
 
 			

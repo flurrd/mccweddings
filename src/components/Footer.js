@@ -16,7 +16,7 @@ export default function Footer(props) {
 
       <div className="footer-content">
       <section className="footer-info">
-      <img width="100px" className="mandala" src="../static/circle.png"></img>
+      <img width="100px" className="mandala" src="../static/circle-sml.png"></img>
         <h5>CELEBRANT</h5>
         <h2>
           Maureen Catherine Crawley

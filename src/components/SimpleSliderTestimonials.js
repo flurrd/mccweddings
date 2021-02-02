@@ -10,7 +10,8 @@ export default function SimpleSliderTestimonials() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    pauseOnHover: true
+    pauseOnHover: true,
+    arrows: false
   };
   return (
   <section id="testimonials"  className="testimonials-slider mar-t-3">
